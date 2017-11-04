@@ -1,0 +1,14 @@
+{
+    "name": "scratchpad",
+    "description": "Scratchpad is a simple ligo programming environment used to compile and run ligo code.",
+    "copyright": "Copyright © 2016, Akilan Elango",
+    "authors": ["Akilan ELango"],
+    "mainSourceFile": "src/main.d",
+    "dflags-ldc": ["-disable-linker-strip-dead","-defaultlib=:libphobos2-ldc.a,:libdruntime-ldc.a"],
+
+    "dependencies": {
+        "gtk-d:gtkd": "~>3.7.0",
+        "gtk-d:sv": "~>3.7.0",
+        "gtk-d:vte": "~>3.7.0"
+    }
+}
